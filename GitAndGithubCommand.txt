@@ -1,0 +1,21 @@
+>> For first time need to  configure the github in our system 
+
+git config --global user.name " Akshat49691"
+git config --global user.email "mittalakshat767@gmail.com"
+git config --global color.ui auto
+
+>> Mandatory command :
+git init
+git remote add origin https://github.com/Akshat49691/GitDemo.git
+
+git pull origin main
+
+>> To push 
+git status
+
+>> To add the some file 
+
+git add .
+git status 
+git commit -m "Commit message"
+git push
